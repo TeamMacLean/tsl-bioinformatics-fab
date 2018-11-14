@@ -25,6 +25,7 @@ const SupportFab = {
                 type: 'question',
                 title: 'Please Provide Feedback',
                 input: 'textarea',
+                animation: false,
                 inputAttributes: {
                     autocapitalize: 'off'
                 },
@@ -46,7 +47,8 @@ const SupportFab = {
             }).then((result) => {
                 if (result.value) {
                     swal({
-                        title: `Your feedback has been received, Thank you.`
+                        title: `Your feedback has been received, Thank you.`,
+                        animation: false
                     })
                 }
             })
