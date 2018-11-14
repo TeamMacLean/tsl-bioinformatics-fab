@@ -1,0 +1,26 @@
+{
+  "name": "tsl-bioinformatics-fab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/parcel build src/*.js -d dist",
+    "watch": "node_modules/.bin/parcel watch src/*.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamMacLean/tsl-bioinformatics-fab.git"
+  },
+  "author": "Martin Page",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeamMacLean/tsl-bioinformatics-fab/issues"
+  },
+  "homepage": "https://github.com/TeamMacLean/tsl-bioinformatics-fab#readme",
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "parcel": "^1.10.3",
+    "sweetalert2": "^7.29.0"
+  }
+}
