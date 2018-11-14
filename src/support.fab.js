@@ -24,7 +24,7 @@ const SupportFab = {
             swal({
                 type: 'question',
                 title: 'Please Provide Feedback',
-                input: 'text',
+                input: 'textarea',
                 inputAttributes: {
                     autocapitalize: 'off'
                 },
@@ -48,9 +48,6 @@ const SupportFab = {
                     swal({
                         title: `Your feedback has been received, Thank you.`
                     })
-                    // .then(() => {
-                    // getNext();
-                    // })
                 }
             })
         }
