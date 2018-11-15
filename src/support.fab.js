@@ -9,7 +9,7 @@ const SupportFab = {
 
 
         function sendIt(message) {
-            $.ajax({
+            return $.ajax({
                 data: 'payload=' + JSON.stringify({
                     "text": `message via ${window.location.hostname} ${message}`
                 }),
