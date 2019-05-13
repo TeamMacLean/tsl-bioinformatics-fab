@@ -38,6 +38,7 @@ const SupportFab = {
                             return response;
                         })
                         .catch(error => {
+                            console.error(error);
                             swal.showValidationMessage(
                                 `Reporting failed: please contact ${options.email} instead.`
                             )
